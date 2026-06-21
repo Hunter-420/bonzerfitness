@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Facilities Section */}
-      <section className="py-12 md:py-20 bg-brand-light dark:bg-gray-900">
+      <section className="py-8 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4 uppercase">Our Facilities</h2>
@@ -81,18 +81,18 @@ export default function Home() {
               features={["Spacious", "Secure", "Free for members"]}
             />
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-8">
             <Button href="/facilities" variant="secondary">View All Facilities</Button>
           </div>
         </div>
       </section>
 
       {/* About Snippet */}
-      <section className="py-12 md:py-20 bg-white dark:bg-brand-charcoal">
+      <section className="py-8 md:py-20 bg-white dark:bg-brand-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full rounded-2xl overflow-hidden shadow-2xl">
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-12">
+            <div className="w-full lg:w-1/2">
+              <div className="relative h-64 md:h-96 w-full rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop"
                   alt="Personal Training at Bonzer Fitness"
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Reviews Snippet */}
-      <section className="py-12 md:py-20 bg-brand-light dark:bg-gray-900">
+      <section className="py-8 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4 uppercase">Success Stories</h2>
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section / Membership Plans */}
-      <section className="py-12 md:py-20 bg-brand-light dark:bg-gray-900">
+      <section className="py-8 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 dark:text-white mb-6 uppercase tracking-tight">Ready to get started?</h2>

@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bonzerfitness.laganiforum.com"),
   title: {
     default: "Bonzer Fitness & Health Club | Best Gym in Pokhara",
     template: "%s | Bonzer Fitness & Health Club",
@@ -24,6 +25,20 @@ export const metadata: Metadata = {
     siteName: "Bonzer Fitness & Health Club",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/512687149_23904078959246301_6734344825210624971_n.jpg?stp=dst-jpg_tt6&cstp=mx552x829&ctp=s552x829&_nc_cat=101&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=w2FUPXTJ0m0Q7kNvwHgp-xQ&_nc_oc=Adr0pDCfzu8CNVsY1m",
+        width: 1200,
+        height: 630,
+        alt: "Bonzer Fitness & Health Club",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bonzer Fitness & Health Club",
+    description: "Join Bonzer Fitness & Health Club in Pokhara, Nepal.",
+    images: ["https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/512687149_23904078959246301_6734344825210624971_n.jpg?stp=dst-jpg_tt6&cstp=mx552x829&ctp=s552x829&_nc_cat=101&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=w2FUPXTJ0m0Q7kNvwHgp-xQ&_nc_oc=Adr0pDCfzu8CNVsY1m"],
   },
   robots: {
     index: true,

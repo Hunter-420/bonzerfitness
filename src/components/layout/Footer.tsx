@@ -14,7 +14,7 @@ export function Footer() {
               <img
                 src="/logo.png"
                 alt="Bonzer Fitness Logo"
-                className="h-12 w-auto object-contain"
+                className="h-12 w-auto object-contain brightness-0 invert"
               />
               <Link href="/" className="text-xl font-black text-white">
                 BONZER<span className="text-brand-teal"> FITNESS</span>

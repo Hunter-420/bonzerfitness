@@ -28,9 +28,9 @@ export function Header() {
               <img
                 src="/logo.png"
                 alt="Bonzer Fitness & Health Club Logo"
-                className="h-12 w-auto object-contain"
+                className="h-12 w-auto object-contain hidden sm:block dark:brightness-0 dark:invert"
               />
-              <span className="text-xl font-black text-brand-charcoal dark:text-white hidden sm:block">
+              <span className="text-xl font-black text-brand-charcoal dark:text-white">
                 BONZER <span className="text-brand-teal">FITNESS</span>
               </span>
             </Link>
