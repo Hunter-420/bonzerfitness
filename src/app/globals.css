@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-teal: #3CB1B5;
+  --color-brand-teal-dark: #2a9a9e;
+  --color-brand-charcoal: #2C3135;
+  --color-brand-charcoal-dark: #1A1D20;
+  --color-brand-light: #F8FAFA;
+  --color-brand-surface: #FFFFFF;
+  /* Keep orange as alias for backwards compat on any missed usages */
+  --color-brand-orange: #3CB1B5;
+  --color-brand-blue: #3CB1B5;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: #F8FAFA;
+  --foreground: #2C3135;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1A1D20;
+    --foreground: #F8FAFA;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Teal gradient button glow */
+  .btn-teal-glow {
+    box-shadow: 0 4px 24px 0 rgba(60, 177, 181, 0.35);
+  }
+}
