@@ -26,10 +26,9 @@ export function Header() {
             <Link href="/" className="flex items-center gap-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/506353114_10061237303957034_1546917943265785298_n.jpg?stp=dst-jpg_tt6&cstp=mx800x566&ctp=s800x566&_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=5XBE_2wlGxMQ7kNvwGv7SVg&_nc_oc=Adq3B4k9frsmOWTTR94VgG5fn9PBJMDsUuUWyyXWscb3kUqg3gyBp_WMgDdyXP1jI9teNuIPxxwFJpj2_FmY94NY&_nc_zt=23&_nc_ht=scontent.fktm8-1.fna&_nc_gid=Ue_-tCoGwYbrWar0HS63Og&_nc_ss=7b2a8&oh=00_Af_abgXYn8Ve3mLtm3kvIFjPzs5Cyq4E3Kqs2pCnms6ydQ&oe=6A3E21D8"
+                src="/logo.png"
                 alt="Bonzer Fitness & Health Club Logo"
-                referrerPolicy="no-referrer"
-                className="h-12 w-auto object-contain bg-white rounded-xl p-1 shadow-sm"
+                className="h-12 w-auto object-contain"
               />
               <span className="text-xl font-black text-brand-charcoal dark:text-white hidden sm:block">
                 BONZER <span className="text-brand-teal">FITNESS</span>
@@ -53,8 +52,11 @@ export function Header() {
             </Button>
           </nav>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          {/* Mobile menu button and Join Now */}
+          <div className="md:hidden flex items-center gap-2">
+            <Button href="/membership" size="sm" className="animate-pulse shadow-[0_0_15px_rgba(60,177,181,0.5)]">
+              Join Now
+            </Button>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-gray-700 dark:text-gray-300 hover:text-brand-teal focus:outline-none p-2"

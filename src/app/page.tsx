@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Facilities Section */}
-      <section className="py-20 bg-brand-light dark:bg-gray-900">
+      <section className="py-12 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4 uppercase">Our Facilities</h2>
@@ -88,7 +88,7 @@ export default function Home() {
       </section>
 
       {/* About Snippet */}
-      <section className="py-20 bg-white dark:bg-brand-charcoal">
+      <section className="py-12 md:py-20 bg-white dark:bg-brand-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Reviews Snippet */}
-      <section className="py-20 bg-brand-light dark:bg-gray-900">
+      <section className="py-12 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4 uppercase">Success Stories</h2>
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section / Membership Plans */}
-      <section className="py-20 bg-brand-light dark:bg-gray-900">
+      <section className="py-12 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 dark:text-white mb-6 uppercase tracking-tight">Ready to get started?</h2>
@@ -180,7 +180,7 @@ export default function Home() {
                 <li className="flex items-center text-gray-700 dark:text-gray-300"><svg className="h-5 w-5 text-brand-teal mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>Locker room access</li>
                 <li className="flex items-center text-gray-700 dark:text-gray-300"><svg className="h-5 w-5 text-brand-teal mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>General guidance</li>
               </ul>
-              <Button href="https://wa.me/9779856038995?text=Hello!%20I%20am%20interested%20in%20joining%20the%20Monthly%20Membership%20plan." target="_blank" className="w-full">Join Now</Button>
+              <Button href="https://api.whatsapp.com/send?phone=9779856038995&text=Hello!%20I%20am%20interested%20in%20joining%20the%20Monthly%20Membership%20plan." target="_blank" className="w-full">Join Now</Button>
             </div>
 
             {/* Quarterly Plan */}
@@ -193,7 +193,7 @@ export default function Home() {
                 <li className="flex items-center"><svg className="h-5 w-5 text-brand-teal mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>1 Free Personal Training Session</li>
                 <li className="flex items-center"><svg className="h-5 w-5 text-brand-teal mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>Diet consultation</li>
               </ul>
-              <Button href="https://wa.me/9779856038995?text=Hello!%20I%20am%20interested%20in%20joining%20the%20Quarterly%20Membership%20plan." target="_blank" variant="primary" className="w-full">Join Now</Button>
+              <Button href="https://api.whatsapp.com/send?phone=9779856038995&text=Hello!%20I%20am%20interested%20in%20joining%20the%20Quarterly%20Membership%20plan." target="_blank" variant="primary" className="w-full">Join Now</Button>
             </div>
 
             {/* Yearly Plan */}
@@ -205,7 +205,7 @@ export default function Home() {
                 <li className="flex items-center text-gray-700 dark:text-gray-300"><svg className="h-5 w-5 text-brand-teal mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>2 Months Free (Save Rs. 10,000)</li>
                 <li className="flex items-center text-gray-700 dark:text-gray-300"><svg className="h-5 w-5 text-brand-teal mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>Bonzer Merchandise</li>
               </ul>
-              <Button href="https://wa.me/9779856038995?text=Hello!%20I%20am%20interested%20in%20joining%20the%20Yearly%20Membership%20plan." target="_blank" className="w-full">Join Now</Button>
+              <Button href="https://api.whatsapp.com/send?phone=9779856038995&text=Hello!%20I%20am%20interested%20in%20joining%20the%20Yearly%20Membership%20plan." target="_blank" className="w-full">Join Now</Button>
             </div>
           </div>
         </div>
