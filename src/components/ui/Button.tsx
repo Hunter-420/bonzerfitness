@@ -26,7 +26,7 @@ export function Button({
 
   const variants = {
     primary:
-      "bg-brand-teal text-white hover:bg-brand-teal-dark focus:ring-brand-teal shadow-md hover:shadow-lg transform hover:-translate-y-0.5 btn-teal-glow",
+      "bg-brand-teal text-brand-charcoal hover:bg-brand-teal-dark focus:ring-brand-teal shadow-md hover:shadow-lg transform hover:-translate-y-0.5 btn-teal-glow",
     secondary:
       "bg-brand-charcoal text-white hover:bg-[#1A1D20] focus:ring-brand-charcoal shadow-md hover:shadow-lg transform hover:-translate-y-0.5",
     outline:

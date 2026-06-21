@@ -39,7 +39,7 @@ export default function ReviewsPage() {
         </div>
 
         <div className="mt-16 text-center">
-          <Button href="https://search.google.com/local/writereview?q=Bonzer+Fitness+%26+Health+Club,+Pokhara" target="_blank" rel="noopener noreferrer">
+          <Button href="https://www.google.com/maps/place/Bonzer+Fitness+%26+Health+Club/@28.2145403,83.9987871,17z/data=!3m1!4b1!4m6!3m5!1s0x3995958eaff77429:0x915628f0483f61ac!8m2!3d28.2145403!4d84.0013674!16s%2Fg%2F11h75jpt4x?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
             Leave a Review on Google
           </Button>
         </div>
