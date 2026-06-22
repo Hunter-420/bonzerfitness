@@ -119,23 +119,21 @@ export function OwnerContactModal() {
               </svg>
             </button>
 
-            {/* Dumbbell icon badge */}
-            <div className="flex justify-center mb-5">
-              <span
-                className="flex items-center justify-center w-16 h-16 rounded-2xl
-                  bg-gradient-to-br from-[#00C6A2]/30 to-[#00897B]/30
-                  border border-[#00C6A2]/40 shadow-lg shadow-[#00C6A2]/20"
+            {/* Logo container */}
+            <div className="flex justify-center mb-6">
+              <div
+                className="flex items-center justify-center w-24 h-24 rounded-2xl
+                  bg-white border border-white/20 shadow-[0_8px_30px_rgb(0,0,0,0.4)]"
                 aria-hidden="true"
               >
-                {/* Logo Image */}
                 <Image
                   src="/logo.png"
                   alt="Bonzer Fitness Logo"
-                  width={64}
-                  height={64}
-                  className="w-10 h-10 object-contain drop-shadow-md"
+                  width={80}
+                  height={80}
+                  className="w-16 h-16 object-contain"
                 />
-              </span>
+              </div>
             </div>
 
             {/* Title */}
