@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://bonzerfitness.com.np/sitemap.xml",
+    sitemap: "https://bonzerfitness.laganiforum.com/sitemap.xml",
   };
 }
