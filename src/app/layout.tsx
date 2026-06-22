@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { OwnerContactModal } from "@/components/ui/OwnerContactModal";
 import "./globals.css";
 
 const inter = Inter({
@@ -173,6 +174,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        <OwnerContactModal />
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
