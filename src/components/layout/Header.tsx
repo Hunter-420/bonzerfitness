@@ -30,8 +30,8 @@ export function Header() {
                 alt="Bonzer Fitness & Health Club Logo"
                 className="h-12 w-auto object-contain hidden sm:block dark:brightness-0 dark:invert"
               />
-              <span className="text-xl font-black text-brand-charcoal dark:text-white">
-                BONZER <span className="text-brand-teal">FITNESS</span>
+              <span className="text-xl font-black text-brand-charcoal dark:text-white flex items-center">
+                BONZER <span className="text-brand-teal ml-1">FITNESS</span>
               </span>
             </Link>
           </div>
