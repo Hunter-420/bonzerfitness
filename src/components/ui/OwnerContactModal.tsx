@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 export function OwnerContactModal() {
   const [isVisible, setIsVisible] = useState(false);
@@ -126,25 +127,14 @@ export function OwnerContactModal() {
                   border border-[#00C6A2]/40 shadow-lg shadow-[#00C6A2]/20"
                 aria-hidden="true"
               >
-                {/* Dumbbell SVG icon */}
-                <svg
-                  viewBox="0 0 64 64"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-9 h-9"
-                  aria-hidden="true"
-                >
-                  {/* Left plate outer */}
-                  <rect x="4" y="22" width="8" height="20" rx="3" fill="#00C6A2" />
-                  {/* Left plate inner */}
-                  <rect x="12" y="26" width="6" height="12" rx="2" fill="#4DD0E1" />
-                  {/* Bar */}
-                  <rect x="18" y="29" width="28" height="6" rx="2" fill="#E0F7F4" />
-                  {/* Right plate inner */}
-                  <rect x="46" y="26" width="6" height="12" rx="2" fill="#4DD0E1" />
-                  {/* Right plate outer */}
-                  <rect x="52" y="22" width="8" height="20" rx="3" fill="#00C6A2" />
-                </svg>
+                {/* Logo Image */}
+                <Image
+                  src="/logo.png"
+                  alt="Bonzer Fitness Logo"
+                  width={64}
+                  height={64}
+                  className="w-10 h-10 object-contain drop-shadow-md"
+                />
               </span>
             </div>
 

@@ -127,6 +127,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Philosophy Section */}
+      <section className="py-12 md:py-24 bg-brand-light dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <svg className="w-12 h-12 mx-auto text-brand-teal mb-6 opacity-80" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+          </svg>
+          <h2 className="text-3xl font-black text-gray-900 dark:text-white mb-6 uppercase tracking-tight">Train Your Body, Heal Your Mind</h2>
+          <blockquote className="text-lg md:text-xl text-gray-600 dark:text-gray-400 italic leading-relaxed mb-8">
+            &ldquo;Every time you respect and release your emotions know you are healing a part of you. Never apologize for your tears. Crying is the only way your eyes speak when your mouth can&apos;t explain. Your tears are cleansing your soul in order to move forward. All these feelings need to be felt. I see it as a sign that I am very in touch with my innermost self, my heart and soul. I&apos;m not afraid of my emotions, unlike many that are. Suppressing tears &amp; emotions increases stress levels, contributes to disease such as high blood pressure, heart problems and ulcers. So have yourself a good healthy cry if needed. Release and let go so you can get back to smiling. You were given a heart by your Creator to share healthy love. Be healthy body mind and soul.&rdquo;
+          </blockquote>
+          <p className="font-bold text-brand-teal uppercase tracking-widest text-sm">— Bonzer Fitness Philosophy</p>
+        </div>
+      </section>
+
       {/* Reviews Snippet */}
       <section className="py-8 md:py-20 bg-brand-light dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
